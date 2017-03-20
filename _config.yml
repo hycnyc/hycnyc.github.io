@@ -1,0 +1,21 @@
+# Site settings
+title: Ms.Robot
+header-img: img/home-bg.png
+email: sally.hy.chung@gmail.com
+copyright_name: hycnyc
+description: > # this means to ignore newlines until "baseurl:"
+  Dreaming of becoming Ms.Robot one day.
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  hycnyc
+learn_profile: hycnyc
+email_username: sally.hy.chung@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
